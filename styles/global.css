@@ -23,8 +23,12 @@
   --text-label:#BAC6C9;
 }
 
-h1 {
- 
-  border: 1px solid red;
-  
+body {
+  background-color: var(--shape-background);
+}
+h1{
+  color: var(--text-title);
+}
+span {
+  color: var(--text-body);
 }

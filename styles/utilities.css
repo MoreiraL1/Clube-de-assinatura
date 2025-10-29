@@ -1,7 +1,7 @@
 .title-lg {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 1.75rem;
   line-height: auto;
 }
 .title-md {
@@ -31,7 +31,7 @@
 .body-lg {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: .875rem;
   line-height: 140%;
 }
 .body-md {
@@ -70,4 +70,32 @@
   font-size: .625rem;
   line-height: auto;
   text-transform: uppercase;
+}
+.flex {
+  display: flex;
+}
+
+.desktop-only {
+  display: none;
+}
+
+
+@media (min-width: 80rem) {
+  .title-lg {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: auto;
+}
+.body-lg {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 140%;
+}
+.desktop-only {
+  display: block;
+}
+
+
 }

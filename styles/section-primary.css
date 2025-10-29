@@ -1,0 +1,24 @@
+section{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.section-primary {
+height: 29rem;  
+max-width: 23.435rem;
+width: 100%;
+
+background-image: url(../assets/hero-background.png);
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+
+@media (min-width: 80rem) {
+  .section-primary {
+    max-width: 90rem;
+    width: 100%;
+    height: 95.25rem;
+  }
+}
