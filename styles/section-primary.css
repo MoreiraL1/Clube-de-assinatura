@@ -1,108 +1,47 @@
-section{
-  display: flex;
-  justify-content: center ;
-  position: relative;
-
-  animation: aparecer 3s;
-
-}
-.section-primary {
-height: 29rem;  
-max-width: 23.435rem;
-width: 100%;
-
-background-image: url(../assets/hero-background.png);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+.section-primary{
+display: flex;
+border: 1px solid yellow;
+margin-top: 6.5rem;
 }
 
-.container {
-  width: 22.18rem;
+.container-header{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin-inline: auto;
+  align-items: center;
+  & h2 {
+    color: var(--text-title);
+  }
+}
+.container-star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%, -50%);
+  gap: 0.5rem;
   
-  gap: 2rem;
-
- & > h1 {
-  text-align: center;
- }
- & span {
-  width: 20.93rem;
-  text-align: center;
- }
-
-}
-section {
-  animation: aparecer 7s ease;
-}
-
-section h1, section span {
-  animation: aparecer-elemento 2s;
-  animation-fill-mode: both;
-  opacity: 0;
-}
-
-section h1 {
-  animation-delay: 0.5s;
-}
-
-section span {
-  animation-delay: 1s;
-}
-
-
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
+  & svg {
+     width: 2.5rem;
+    height: 2.5rem;
   }
-  100% {
-    opacity: 1;
-  }
+
 }
 
-@keyframes aparecer-elemento {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 @media (min-width: 80rem) {
-  .section-primary {
-    max-width: 90rem;
-    width: 100%;
-    height: 59.25rem;
-    background-position: top;
 
-    
+.section-primary{
+border: 1px solid yellow;
+margin-top: 15rem;
+}
+
+.container-star {
+  gap:1rem;
+
+    & svg {
+     width: 4.5rem;
+    height: 4.5rem;
   }
-  .container {
-    width: 41rem;
+}
 
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-  
-
-
-     & span {
-  width: 34.85rem;
-  text-align: center;
-  margin-inline: auto;
- }
-
-  }
 }

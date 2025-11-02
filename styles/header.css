@@ -2,10 +2,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-inline: 1.25rem;
+  margin-inline: auto;
   margin-top: 1.25rem;
-
+  margin-bottom: 3rem;
   
+  & img{
+    width: 4rem;
+  }
 }
 @media (min-width: 80rem) {
 header {
