@@ -1,0 +1,57 @@
+.book-hover{
+  transition: 2s ease;
+  
+  &:hover{
+
+  & figure {
+
+  &:nth-of-type(2) {
+  transform: translateX(-80px) translateY(20px) scale(1.2);
+
+  }
+  &:nth-of-type(3) {
+  
+  transform: rotate(15deg) translateX(80px) translateY(-50px) scale(1.2);
+
+  }
+  &:nth-of-type(4) {
+  transform: rotate(30deg) translateX(140px) translateY(-20px) scale(1.2);
+
+  }
+  
+  }
+}
+
+
+
+
+}
+
+@media (min-width: 80rem) {
+
+  .book-hover{
+  transition: 2s ease;
+  
+  &:hover{
+
+  & figure {
+
+  &:nth-of-type(2) {
+  transform: translateX(-19rem) translateY(5.25rem) scale(1.2);
+
+  }
+  &:nth-of-type(3) {
+  
+  transform: rotate(15deg) translateX(9.75rem) translateY(-15.4rem) scale(1.2);
+
+  }
+  &:nth-of-type(4) {
+  transform: rotate(30deg) translateX(17.25rem) translateY(-12.25rem) scale(1.2);
+
+  }
+  
+  }
+}
+
+}
+}
