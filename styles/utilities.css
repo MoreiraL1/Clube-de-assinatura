@@ -42,9 +42,9 @@
 }
 .body-md-book {
   font-family: 'Raleway', 'sans-serif';
-  font-weight: 600;
-  font-size: .625rem;
-  line-height: 140%;
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: auto;
 }
 
 .body-sm {
@@ -135,9 +135,9 @@
 
 .body-md-book {
   font-family: 'Raleway', 'sans-serif';
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
-  line-height: 140%;
+  line-height: auto;
 }
 
 
