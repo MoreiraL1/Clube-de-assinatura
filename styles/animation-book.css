@@ -67,7 +67,9 @@
 
    &:nth-of-type(5) {
   transform: translateX(13.5rem) translateY(10.25rem) scale(1.2);
-  
+  & span {
+    transform: scale(1);
+  }
   }
   
 }

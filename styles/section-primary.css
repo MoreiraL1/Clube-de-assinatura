@@ -35,9 +35,10 @@
   gap: 1rem;
   width: 11rem;
   height: 13rem;
-  margin-top: 4rem;
+
+  margin-top: 8.4rem;
+  margin-bottom: 10.6rem;
   
-  margin-bottom: auto;
   align-self: center;
   
   
@@ -141,6 +142,7 @@
   bottom: 1.5rem;
   right: -1.5rem;
   width: 8rem;
+  transform: scale(0.7);
 }
 
 
@@ -214,6 +216,8 @@ display: flex;
 position: relative;
 width: 29.2rem;
 height: 38.5rem;
+margin-top: 12.5rem;
+margin-bottom: 28rem;
 
 
 & figure {
@@ -263,6 +267,7 @@ height: 38.5rem;
   bottom: 2.25rem;
   right: 5.5rem;
   width: 11.06rem;
+  transform: scale(0.8);
 }
 
   & img{

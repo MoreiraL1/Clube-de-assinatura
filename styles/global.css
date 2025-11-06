@@ -32,3 +32,10 @@ h1{
 span {
   color: var(--text-body);
 }
+
+ul {
+  list-style: none;
+}
+a {
+  all: unset;
+}
