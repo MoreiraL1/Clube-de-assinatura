@@ -1,5 +1,7 @@
 .section-secondary{
-
+  background-image: url(../assets/pricing-background.png);
+  background-size: contain;
+  overflow: hidden;
 }
 
 .price-container {
@@ -92,7 +94,6 @@
 @media (min-width: 80rem) {
 .section-secondary{
   width: 90rem;
-  height: 77.5rem;
   display: flex;
   flex-direction: column;
   gap: 3.6rem;

@@ -47,6 +47,7 @@ section {
   margin-top: 2.5rem;
   margin-inline: auto;
   margin-bottom: 6rem;
+ 
 
   & img[src*="opened"] {
     width: 2.5rem;
@@ -104,15 +105,16 @@ section {
 
 @media (min-width: 80rem) {
   #hero {
-    max-width: 90rem;
+    min-width: 90rem;
     height: 59.25rem;
     background-size:cover;
     background-position: bottom;
     margin-top: 0;
   }
+  
   .hero-container {
     max-width: 41rem;
-
+    margin-top: 10.25rem;
     & span {
       padding: 3rem;
     }
