@@ -115,4 +115,26 @@
 
 }
 
+.btn-link{
+transition: 0.8s;
+cursor: pointer;
 
+  &:hover {
+  color: var(--text-body);
+}
+}
+
+.link-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: 0.8s;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: var(--blue-low);
+    border-radius: 50%;
+  }
+}
