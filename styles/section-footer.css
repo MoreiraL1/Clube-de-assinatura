@@ -16,7 +16,6 @@
   gap: 2.5rem;
   margin-top: 6.2rem;
   margin-inline: 2rem;
-  margin-bottom: 2.4rem;
 }
 
 
@@ -63,5 +62,16 @@
 }
 
 @media (min-width: 80rem) {
+  .footer {
+    width: 90rem;
+    height: 26rem;
   
+  }
+  .footer-container {
+    display: flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    margin-inline: 10rem;
+    margin-top: 10.6rem;
+  }
 }
