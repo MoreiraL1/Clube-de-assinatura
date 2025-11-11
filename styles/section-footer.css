@@ -6,7 +6,8 @@
 
   width: 23.43rem;
   height: 25.93rem;
-
+  border: 1px solid rgba(0, 0, 0, 0);
+  
 }
 .footer-container {
   display: flex;
